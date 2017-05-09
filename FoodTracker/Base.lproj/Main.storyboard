@@ -111,8 +111,8 @@
                                     <constraint firstAttribute="trailing" secondItem="jtc-e0-EM0" secondAttribute="trailing" id="yZL-TI-1PA"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GrO-Qe-2sv" customClass="StarRatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                <rect key="frame" x="36" y="492" width="252" height="40"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GrO-Qe-2sv" customClass="StarRatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                <rect key="frame" x="26" y="462" width="252" height="50"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="starCount">
                                         <integer key="value" value="5"/>
@@ -127,10 +127,9 @@
                         <constraints>
                             <constraint firstItem="JgV-Cb-FaH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="1Vd-lR-Q1M"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JgV-Cb-FaH" secondAttribute="trailing" id="HkC-f2-i8m"/>
-                            <constraint firstItem="GrO-Qe-2sv" firstAttribute="top" secondItem="JgV-Cb-FaH" secondAttribute="bottom" constant="50" id="TGp-ZH-Dcm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="GrO-Qe-2sv" secondAttribute="trailing" constant="20" id="eAl-HM-AhQ"/>
-                            <constraint firstItem="GrO-Qe-2sv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="gOY-94-MNM"/>
+                            <constraint firstItem="GrO-Qe-2sv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="IRe-xK-xFl"/>
                             <constraint firstItem="JgV-Cb-FaH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="s4e-hi-KZP"/>
+                            <constraint firstItem="GrO-Qe-2sv" firstAttribute="top" secondItem="JgV-Cb-FaH" secondAttribute="bottom" constant="20" id="s9Y-xE-0Ct"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Nova Comida" id="dPo-SG-kof">
